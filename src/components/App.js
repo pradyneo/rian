@@ -1,7 +1,7 @@
 import React from 'react'
 import { Component } from 'react';
 import { Card, Col, Container, Image, Jumbotron, Row } from 'react-bootstrap';
-import Header from './Header.jsx';
+import stork from './../images/stork.gif'
 
 class App extends Component {
     render() {
@@ -12,7 +12,7 @@ class App extends Component {
                         <Card style={{ width: '50rem' }} className="mx-auto my-5 text-center">
                             <Card.Header style={{ fontSize: '60px' }}>Rian Neog</Card.Header>
                             <Card.Body>
-                                <Card.Text style={{ fontSize: '30px' }}>Our little bundle of joy!!</Card.Text>
+                                <Card.Text style={{ fontSize: '30px' }}>Our little bundle of joy!! <img src={stork}/></Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
