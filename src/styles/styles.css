@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+\*,
+\*::before,
+\*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Tangerine', cursive;
+  color: rgb(230, 169, 18);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(rgb(157, 207, 255), rgb(215, 244, 253));
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
