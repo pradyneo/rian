@@ -1,25 +1,20 @@
 import React from 'react'
 import { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Navbar, Nav } from 'react-bootstrap';
+import { BrowserRouter } from 'react-router-dom';
+import Header from './Header.jsx';
 
 import HomePage from './HomePage.jsx';
-
-const topSpacing = {
-    marginTop: '10%'
-}
+import Routes from './Routes.js';
 
 class App extends Component {
-
-    
     render() {
         return (
-            <>
-                <Row style={topSpacing} className="justify-content-md-center">
-                    <Col md="auto" >
-                        <HomePage />
-                    </Col>
-                </Row>
-            </>
+            <HomePage/>
+            // <BrowserRouter>
+            //     <Header />
+            //     <Routes />
+            // </BrowserRouter>
         )
     }
 }

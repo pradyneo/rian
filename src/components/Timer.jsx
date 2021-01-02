@@ -45,7 +45,7 @@ function Timer() {
 
     const isArrivingHeader = 'Baby is on its way...';
     const hasArrivedHeader = 'Yay!! Baby Rian has arrived!!';
-    const isArrivingBody = 'Arring in ';
+    const isArrivingBody = 'Arriving in ';
     const hasArrivedBody = 'Rolling out the carpet for Baby Rian\'s arrival... Stay tuned!!'
 
     const cardBody = () => {
@@ -66,7 +66,7 @@ function Timer() {
 
     return (
 
-        <Card style={{ width: '70rem' }} className="mx-auto my-5 text-center">
+        <Card style={{ width: '60rem' }} className="mx-auto my-5 text-center textColor">
             <Card.Header style={{ fontSize: '60px' }}>{timerComponents.length ? isArrivingHeader : hasArrivedHeader}</Card.Header>
             <Card.Body>
                 {cardBody()}
