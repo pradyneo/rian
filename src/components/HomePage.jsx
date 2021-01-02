@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
 import Timer from './Timer.jsx';
-import stork from './../images/stork.gif';
 
 const hasArrived = false;
 const onWayHeader = "Baby is on its way...";
@@ -18,7 +16,7 @@ class HomePage extends Component {
 
     render() {
         return (
-            <Timer/>
+            <Timer />
         );
     }
 }
