@@ -4,10 +4,11 @@ import stork from './../images/stork.gif';
 import redCarpet from './../images/redcarpet.gif';
 
 function Timer() {
-    const expectedDate = new Date('2021/01/04 13:15:00');
+    const expectedDate = new Date('2021/01/04 13:15:00 EST');
+    const currentDate = new Date();
 
     const calculateTimeLeft = () => {
-        const difference = expectedDate - +new Date();
+        const difference = expectedDate - +currentDate;
         let timeLeft = {};
         if (difference > 0) {
             timeLeft = {
