@@ -1,9 +1,9 @@
 {
-  "name": "rian",
+  "name": "baby",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://pradyneo.github.io/baby",
+  "homepage": "https://baby.prady.xyz",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config ./webpack.config.js --mode development",
